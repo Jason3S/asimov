@@ -55,6 +55,9 @@ readonly ASIMOV_VENDOR_DIR_SENTINELS=(
     'build pubspec.yaml'               # Flutter (Dart)
     'build setup.py'                   # Python
     'dist setup.py'                    # PyPI Publishing (Python)
+    '.cache .cache/node'               # Cached files
+    '.npm .npm/_npx'                   # Npm Cached files
+    '.nvm .nvm/versions'               # Node versions
     'node_modules package.json'        # npm, Yarn (NodeJS)
     'target Cargo.toml'                # Cargo (Rust)
     'target pom.xml'                   # Maven
